@@ -9,7 +9,7 @@ const Routes: Routes = [
   { path: 'animals', component: AnimalComponent},
   {path: '', redirectTo: '/animals', pathMatch: 'full'},
   { path: 'generic/:id', component: GenericComponent },
-    { path: 'fruits', component: FruitsComponent}
+  { path: 'fruits', component: FruitsComponent}
 ];
 
 @NgModule({
